@@ -126,7 +126,7 @@ export function DayCell({
     setNewText('');
   }
 
-  function handleCellDragOver(e: React.DragEvent, idx?: number) {
+  function handleCellDragOver(e: React.DragEvent, _idx?: number) {
     e.preventDefault();
     e.dataTransfer.dropEffect = 'move';
     setIsDragOver(true);
